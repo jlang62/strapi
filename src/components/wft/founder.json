@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_wft_founders",
+  "info": {
+    "displayName": "Founder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Founder": {
+      "type": "string"
+    },
+    "AboutFounder": {
+      "type": "text"
+    },
+    "ImageLeft": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

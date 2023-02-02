@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_wft_about_uses",
+  "info": {
+    "displayName": "About US",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Paragraph": {
+      "type": "richtext"
+    }
+  }
+}

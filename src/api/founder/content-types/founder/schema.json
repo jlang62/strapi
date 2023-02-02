@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "founders",
+  "info": {
+    "singularName": "founder",
+    "pluralName": "founders",
+    "displayName": "Founder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Founder": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wft.founder"
+    }
+  }
+}

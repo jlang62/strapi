@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_wft_trainings",
+  "info": {
+    "displayName": "Training",
+    "icon": "dumbbell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Workout": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImageLeft": {
+      "type": "boolean",
+      "default": true
+    },
+    "Summer": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

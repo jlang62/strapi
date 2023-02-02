@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_wft_members",
+  "info": {
+    "displayName": "Members",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "Bday": {
+      "type": "date"
+    },
+    "ProfilePicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

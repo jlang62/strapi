@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "memberships",
+  "info": {
+    "singularName": "membership",
+    "pluralName": "memberships",
+    "displayName": "Membership",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "TitleDescription": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "TitleList": {
+      "type": "string"
+    },
+    "ListBenefit": {
+      "type": "text"
+    },
+    "TitleYear": {
+      "type": "string"
+    },
+    "AdultsCosts": {
+      "type": "string"
+    },
+    "YouthCosts": {
+      "type": "string"
+    },
+    "FeeTitle": {
+      "type": "string"
+    },
+    "OnePersonCost": {
+      "type": "string"
+    },
+    "FamilyCost": {
+      "type": "string"
+    },
+    "PDFInformation": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
